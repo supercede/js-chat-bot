@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/1759022df8.js"></script>
-    <link rel="stylesheet" href="bootstrap.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -12,13 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Uduaky Says</title>
+    <title>Uduak Says</title>
   </head>
   <body>
     <div class="container">
       <h2 class="mb-5 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-        veritatis.
+        A simple Chatbot.
       </h2>
       <div class="window">
         <div class="header">
@@ -35,8 +33,15 @@
           </div>
         </div>
         <div class="user-input">
-          <form class="user-form" id="user-form">
-            <input type="text" class="input" id="reply" required autofocus />
+          <form class="user-form" id="user-form" autocomplete="off">
+            <input
+              type="text"
+              class="input"
+              id="reply"
+              required
+              autofocus
+              autocomplete="off"
+            />
             <button type="submit" class="btn btn-primary">
               <i class="fas fa-share-square"></i>
             </button>
